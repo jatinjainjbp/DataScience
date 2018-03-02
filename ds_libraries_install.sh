@@ -38,3 +38,6 @@ sudo /usr/bin/anaconda/bin/conda install -y -c bioconda tesseract
 
 echo "Installing pdfminer package"
 sudo /usr/bin/anaconda/bin/conda install -y -c conda-forge pdfminer
+
+echo "Installing keras package"
+sudo /usr/bin/anaconda/bin/conda install -y -c conda-forge keras
