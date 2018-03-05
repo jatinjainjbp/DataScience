@@ -38,3 +38,9 @@ sudo /usr/bin/anaconda/bin/conda install -y -c bioconda tesseract
 
 echo "Installing pdfminer package"
 sudo /usr/bin/anaconda/bin/conda install -y -c conda-forge pdfminer
+
+echo "Installing keras package"
+sudo /usr/bin/anaconda/bin/conda install -y -c conda-forge keras
+
+echo "Installing Azure package in Python 35 env"
+/usr/bin/anaconda/bin/conda install -y -c conda-forge azure-storage==0.20.3 -n py35
